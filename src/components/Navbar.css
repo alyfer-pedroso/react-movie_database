@@ -43,7 +43,13 @@
   color: #9b0222;
 }
 
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 490px) {
+  #navbar input {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 443px) {
   #navbar {
     flex-direction: column;
     gap: 1rem;
